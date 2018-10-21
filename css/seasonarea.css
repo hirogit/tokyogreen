@@ -1,0 +1,145 @@
+﻿@charset "utf-8";
+
+/*以下の記述はresponsiveの場合、必ずいれます*/
+img{
+	max-width:100%;
+	height:auto;
+	width/***/:auto;
+}
+/*以上の記述はresponsiveの場合、必ずいれます*/
+body{
+	font-family:"ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	background-color:#000;
+	color:#000;
+}
+
+a{
+	color:#000;
+}
+
+.bg-slider {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+background-repeat:no-repeat;
+margin: 0 auto;
+
+
+//	display: flex;
+//	align-items: center;
+//	justify-content: center;
+}
+#wrapper{
+	max-width:1300px;
+	margin:0 auto;
+}
+
+
+/* メイン部分================================================*/
+
+
+#grayzone{
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	padding: 20px auto;
+}
+
+
+
+section h1{
+	text-align:center;
+	font-size:2em;
+	line-height:2em;
+	text-shadow: 0 0 3px white;
+}
+
+
+#fourseason{
+	display:flex;
+	justify-content:space-around;
+	padding-bottom:40px;
+}
+
+.fsstyle h2{
+	font-size:2em;
+	line-height:2em;
+	text-shadow: 0 0 3px white;
+}
+
+.fsstyle ul{
+	list-style-type: square;
+	text-decoration: underline;
+	line-height:2em;
+	color:#000;
+	text-shadow: 0 0 3px white;
+	margin-left:40px;
+}
+
+
+
+
+/* ヘッダ================================================*/
+
+#logo{
+	padding: 30px 30px 20px 30px;
+}
+/* インデックスメニュー================================================*/
+
+aside{
+	position: fixed;
+	bottom: 30px;
+	right: 25px;
+}
+aside nav ul{
+	display: flex;
+}
+aside nav ul li{
+	width: 15vw;
+	text-align: center;
+	border: none;
+	padding: 5px;
+	margin: 0 5px;
+	background: #000;
+	filter:alpha(opacity=85);
+	-moz-opacity:0.85;
+	-khtml-opacity: 0.85;
+	opacity:0.85;
+
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+aside nav ul li a{
+	color: #FFF;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: serif;
+	text-shadow: 1px 1px 3px #000;
+}
+aside nav ul li a:hover{
+	color: pink;
+}
+
+
+/* フッター================================================*/
+footer{
+	width:100%;
+	background: #000;
+	padding-bottom: 5px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+footer p{
+	font-size: 0.8em;
+	color: #FFF;
+	font-family: serif;
+	line-height:2em;
+}
+
+
+/*contactのコンテンツ内850px*410px*/
+/* Base =======================================*/
+
+
+
